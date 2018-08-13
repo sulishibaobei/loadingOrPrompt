@@ -19,10 +19,10 @@
     <script>
         $(function() {
             var opts = {
-                type: 0,
+                type: 0, //0 表示纯图片  1 表示纯文字  3 表示文字加图片 默认是type :0
                 obj: 'body',
                 content: '正在奋力加载...',
-                class: 'fz14'
+                class: 'fz14' //额外加的样式
             };
             showLoadingLayer(opts);
             setTimeout(function() {
