@@ -15,6 +15,13 @@
     <script src="jquery.js"></script>
     <script src="prompt.js"></script>
     <script>
+        /*
+        * showPromptLayer(type,content,obj,time);
+        * type:0表示纯文字  1表示成功的提示  2表示失败的提示
+        * content  表示要显示的文字
+        * obj 表示提示框需要加载的位置。默认是Body.
+        * time 表示弹框多久后关闭  默认 1500秒
+        */
         $(function() {
             showPromptLayer(0, '操作成功', 'body', 5000);
         })
